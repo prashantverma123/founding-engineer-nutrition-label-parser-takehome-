@@ -1,0 +1,9 @@
+# Core dependencies
+pandas==2.1.0
+Pillow==10.0.0
+python-dotenv==1.0.0
+
+# Vision model providers (install based on your API key)
+openai>=1.3.0              # For GPT-4V/4o - set OPENAI_API_KEY
+anthropic>=0.18.0          # For Claude 3 - set ANTHROPIC_API_KEY  
+google-generativeai>=0.3.0 # For Gemini - set GOOGLE_API_KEY
